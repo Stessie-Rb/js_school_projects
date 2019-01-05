@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#contenu_jeu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#simonGame{
+    width: 450px;
+    height: 450px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circle{
+    width: 198px;
+    height: 198px;
+    animation-name: fadeIn; 
+    animation-duration: 4s;  
+}
+
+#red{
+    border-radius: 200px;
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+} 
+@keyframes fadeIn{
+        from {
+            opacity: 0;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+   }
+#green{
+    border-radius: 200px; 
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#blue{
+    border-radius: 200px;
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#yellow{
+    border-radius: 200px;
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.slider_content{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    display: none;
+}
+h1{
+    width: 100%;
+    color: palevioletred;
+    margin: 5%;
+    font-family: Garamond;
+    animation: fadeIn 4s;
+
+} 
+button{
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    margin: 0 2%;
+} 
+button:hover{
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 2%;
+}

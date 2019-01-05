@@ -1,0 +1,99 @@
+/* css */
+body{
+    width: 1101px;
+    margin: auto;
+    background-image: url('images/bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+}
+#simon{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 850px;
+}
+#base {
+    position: absolute;
+    z-index: 10;
+}
+#centre{
+    position: absolute;
+    z-index: 200;
+    margin: 210px 0px 0px 210px;
+}
+
+#gauche{
+    display: flex;
+    flex-wrap: wrap;
+    width: 435px;
+    position: absolute;
+    z-index: 3000;
+}
+#hautGauche{
+    border-top-left-radius: 50%;
+    height: 425px;
+    width: 425px;
+    background-color: green;
+    opacity: 0.1;
+}
+#basGauche{
+    border-bottom-left-radius: 50%;
+    height: 425px;
+    width: 425px;
+    background-color:yellow;
+    opacity: 0.1;
+}
+
+#droite{
+    display: flex;
+    flex-wrap: wrap;
+    width: 435px;
+    margin-left:425px;
+    position: absolute;
+    z-index: 3000;  
+}
+#hautDroite{
+    border-top-right-radius: 50%;
+    height: 425px;
+    width: 425px;
+    background-color: red;
+    opacity: 0.1;
+}
+#basDroite{
+    border-bottom-right-radius: 50%;
+    height: 425px;
+    width: 425px;
+    background-color: blue;
+    opacity: 0.1;
+}
+
+#menu{
+    background-color:black;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 3500;
+    margin: 225px 0px 0px 225px;
+    opacity: 0.1;
+}
+#slid{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width:1100px;
+    height:200px;
+    display:flex;
+    justify-content:space-around;
+}
+#slider{
+   width:90%;
+   text-align: center;
+}
+
+#fleched,#flecheg{
+   display:block;
+   height:15%;
+   padding-top: 80px;
+}
+
